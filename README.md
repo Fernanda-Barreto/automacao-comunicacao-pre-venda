@@ -1,7 +1,8 @@
 # Sistema Híbrido de Vendas e Comunicação
 
 ## Visão Geral
-Este projeto foi desenvolvido para **otimizar e agilizar o processo de comunicação e vendas** em distribuidoras de diversos setores.  
+Este projeto foi desenvolvido para **otimizar e agilizar o processo de comunicação e vendas** em distribuidoras de diversos setores.
+
 A solução opera em um **modelo híbrido**, permitindo que o cliente inicie uma pré-venda de forma autônoma enquanto o atendente foca em etapas estratégicas do processo de vendas.
 
 O principal objetivo é **reduzir o tempo de espera** e **aumentar a eficiência da comunicação** entre cliente, atendente e controle de estoque.
@@ -31,11 +32,12 @@ Utilizamos o **n8n** para orquestrar o processo, iniciado por um webhook e execu
 O projeto utiliza uma combinação de ferramentas para garantir **flexibilidade e escalabilidade**.
 
 ### Ferramentas e Tecnologias
-- **Frontend:** HTML, CSS e JavaScript  
+- **Frontend:** TypeScript, React e Next.js  
 - **Backend:** Node.js  
+- **Estilização:** Tailwind CSS, para design responsivo e eficiente  
 - **Banco de Dados (Prova de Conceito):** Google Sheets  
 - **Serviço de Automação:** n8n  
-- **Outras APIs:** Google Drive API (para integração com Google Sheets) e API de Mensageria (para notificações).  
+- **Outras APIs:** Google Drive API (para integração com Google Sheets) e API de Mensageria (para notificações)  
 
 ---
 
@@ -49,7 +51,7 @@ O projeto está em constante evolução. Planejamos implementar:
 ---
 
 ## Como Rodar o Projeto Localmente
-Se este projeto de código-fonte for um aplicativo Node.js, siga estas instruções:
+Se este projeto de código-fonte for um aplicativo **Next.js**, siga estas instruções:
 
 ### 1. Clone o Repositório:
 ```bash
@@ -69,3 +71,8 @@ Crie um arquivo `.env` na raiz do projeto e adicione as chaves necessárias (por
 ```bash
 npm run dev
 ```
+
+---
+
+## Licença
+Este projeto é distribuído sob a licença [MIT](LICENSE).
