@@ -74,5 +74,4 @@ npm run dev
 
 ---
 
-## Licença
-Este projeto é distribuído sob a licença [MIT](LICENSE).
+
