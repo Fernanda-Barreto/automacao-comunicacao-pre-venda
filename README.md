@@ -1,5 +1,7 @@
 # Sistema Híbrido de Vendas e Comunicação
 
+![Demonstração do Sistema](./docs/image/sistema.gif)
+
 ## Visão Geral
 Este projeto foi desenvolvido para **otimizar e agilizar o processo de comunicação e vendas** em distribuidoras de diversos setores.
 
@@ -19,6 +21,8 @@ O principal objetivo é **reduzir o tempo de espera** e **aumentar a eficiência
 ## Processo de Automação com n8n
 A automação é o **coração do sistema**, garantindo que o fluxo de dados seja contínuo e eficiente.  
 Utilizamos o **n8n** para orquestrar o processo, iniciado por um webhook e executado nas seguintes etapas:
+
+![Fluxo n8n](./docs/image/n8n.gif)
 
 1. Um novo pedido (pré-venda) é criado na plataforma.  
 2. O **n8n** recebe os dados do pedido e os processa.  
